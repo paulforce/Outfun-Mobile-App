@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="event.css">
+		<script src="event.js"></script>
+	</head>
+	<body style="background-color:#8FD8D8">
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="span6">
+					<p><a class="btn btn-block active" href="#">Trending</a></p>
+				</div>
+				<div class="span6">
+					<p><a class="btn btn-block disabled" href="#">Map - Under development</a></p>
+				</div>
+			</div>
+			<ul class="unstyled" id='list'>
+				<li class="well">
+					<div class="row-fluid">
+						<div class="span2">
+							<img class="img-polaroid" src="img.jpg"/>
+						</div>
+						<div class="span9">
+							<div class="row-fluid">
+								<div class="span10">
+									<div class="row-fluid"><div class="offset1 span11"><h4>Title</h4></div></div>
+								</div><!-- title -->
+								<div class="span2">
+									<p><a class="btn" href="map.html?latitude="-34.397"&longitude="150.644"">Locate</a></p>
+								</div><!-- button -->
+							</div><!-- titlebutton -->
+							<div class="row-fluid"><div class="offset1 span11"><p>Description</p></div></div>
+						</div><!-- titlebuttondescription span9 -->
+					</div><!-- eventrow -->
+				</li>
+			</ul>
+		</div><!-- container -->
+	</body>
+</html>
