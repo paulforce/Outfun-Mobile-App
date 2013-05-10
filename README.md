@@ -1,4 +1,4 @@
 Outfun-Mobile-App
 =================
 
-Phonegap App for www.outfun.com
+Phonegap App for mine and a friends project Outfun
